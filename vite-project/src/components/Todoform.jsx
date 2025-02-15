@@ -12,6 +12,7 @@ function Todoform() {
         if(!todo)return 
         console.log("the value of todo is :",todo)
         addTodo({todo, completed:false})
+        setTodo('')
     }
     
 
